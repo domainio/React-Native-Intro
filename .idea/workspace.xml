@@ -3,12 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="a3e4d09f-e49d-4e30-b4e1-63a4e3c32bc3" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/__tests__/App-test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/__tests__/__snapshots__/App-test.js.snap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/__tests__/StyledText-test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/__tests__/__snapshots__/StyledText-test.js.snap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.watchmanconfig" beforeDir="false" afterPath="$PROJECT_DIR$/.watchmanconfig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screens/CameraScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/screens/CameraScreen.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/screens/MapScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/screens/MapScreen.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
@@ -29,24 +25,64 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="HomeScreen.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/screens/HomeScreen.js">
+      <file leaf-file-name="CameraScreen.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/screens/CameraScreen.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+            <state relative-caret-position="170">
+              <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
               <folding>
-                <element signature="e#0#41#0" expanded="true" />
+                <element signature="e#0#26#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CameraScreen.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/screens/CameraScreen.js">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="26" selection-start-column="26" selection-end-column="26" />
+            <state relative-caret-position="376">
+              <caret line="16" column="32" lean-forward="true" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".watchmanconfig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.watchmanconfig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MapScreen.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/screens/MapScreen.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="34" column="32" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
+              <folding>
+                <element signature="e#0#40#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node_modules/react-native-maps/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="518">
+              <caret line="29" column="22" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="22" />
+              <folding>
+                <element signature="e#0#97#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-38" />
           </provider>
         </entry>
       </file>
@@ -61,34 +97,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainTabNavigator.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MainTabNavigator.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/navigation/MainTabNavigator.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="15" column="3" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AppNavigator.web.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/navigation/AppNavigator.web.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#57#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AppNavigator.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/navigation/AppNavigator.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+            <state relative-caret-position="-162">
+              <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -102,6 +115,10 @@
     <findStrings>
       <find>settings</find>
       <find>_getLocationAsync</find>
+      <find>web</find>
+      <find>types</find>
+      <find>resolve</find>
+      <find>MapView</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -111,9 +128,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/screens/HomeScreen.js" />
-        <option value="$PROJECT_DIR$/screens/MapScreen.js" />
         <option value="$PROJECT_DIR$/screens/CameraScreen.js" />
         <option value="$PROJECT_DIR$/navigation/MainTabNavigator.js" />
+        <option value="$PROJECT_DIR$/.watchmanconfig" />
+        <option value="$PROJECT_DIR$/screens/MapScreen.js" />
       </list>
     </option>
   </component>
@@ -143,16 +161,6 @@
             <path>
               <item name="rn-intro" type="b2602c69:ProjectViewProjectNode" />
               <item name="rn-intro" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rn-intro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rn-intro" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rn-intro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rn-intro" type="462c0819:PsiDirectoryNode" />
-              <item name="navigation" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="rn-intro" type="b2602c69:ProjectViewProjectNode" />
@@ -198,7 +206,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1567520605183</updated>
-      <workItem from="1567520606857" duration="4493000" />
+      <workItem from="1567520606857" duration="7819000" />
     </task>
     <task id="LOCAL-00001" summary="screens">
       <created>1567608331464</created>
@@ -207,11 +215,18 @@
       <option name="project" value="LOCAL" />
       <updated>1567608331464</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="camera, map">
+      <created>1567666660812</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1567666660812</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4493000" />
+    <option name="totallyTimeSpent" value="7819000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
@@ -246,7 +261,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="screens" />
-    <option name="LAST_COMMIT_MESSAGE" value="screens" />
+    <MESSAGE value="camera, map" />
+    <option name="LAST_COMMIT_MESSAGE" value="camera, map" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/node_modules/@expo/samples/index.js">
@@ -268,9 +284,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/screens/ListScren.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/screens/HomeScreen.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -284,27 +297,13 @@
     <entry file="file://$PROJECT_DIR$/node_modules/expo-location/build/Location.d.ts">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/screens/MapScreen.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="39" lean-forward="true" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/navigation/AppNavigator.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
-          <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/screens/CameraScreen.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="26" selection-start-column="26" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -319,10 +318,69 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/navigation/MainTabNavigator.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="3" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
+        <state relative-caret-position="-162">
+          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/screens/ListScren.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/screens/CameraScreen.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.watchmanconfig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-38" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/react-native-maps/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="518">
+          <caret line="29" column="22" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#97#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/react/cjs/react.development.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="1859" column="2" selection-start-line="1859" selection-start-column="2" selection-end-line="1859" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="16" column="32" lean-forward="true" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/screens/MapScreen.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="34" column="32" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
           </folding>
         </state>
       </provider>

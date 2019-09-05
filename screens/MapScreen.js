@@ -1,9 +1,10 @@
-import React, { Component } from 'react';
+import React, { Component, Suspense } from 'react';
 import { View, Text, Platform } from 'react-native';
-import MapView from 'react-native-maps';
 import Constants from 'expo-constants';
 import * as Location from 'expo-location';
 import * as Permissions from 'expo-permissions';
+const MapView = React.lazy(() => import('react-native-maps'));
+
 
 export default class MapScreen extends Component {
   state = {
@@ -17,7 +18,7 @@ export default class MapScreen extends Component {
         errorMessage:
           'Oops, this will not work on Sketch in an Android emulator. Try it on your device!',
       });
-    } else {
+    } else if (Platform.OS === 'ios') {
       await this._getLocationAsync();
     }
   }
@@ -34,13 +35,21 @@ export default class MapScreen extends Component {
     this.setState({ location });
   };
 
+
   render() {
-    return (
-      <MapView
-        style={{ flex: 1 }}
-        showsUserLocation={true}
-      />
-    );
+    if (Platform.OS !== 'web') {
+      return (
+        <Suspense fallback={<Text>Loading...</Text>}>
+          <MapView
+            style={{ flex: 1 }}
+            showsUserLocation={true}
+          />
+        </Suspense>
+      );
+    } else
+      return (
+        <View><Text>native map not supported on web browser.</Text></View>
+      );
   }
 }
 
