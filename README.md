@@ -1,4 +1,4 @@
-# Mobile app use React-Native
+# Mobile app use [React-Native](https://facebook.github.io/react-native/)
 ## How to run on your `IOS device`
 1. Download **`expo` app via AppStore or scan this qr-code
 <img src="https://drive.google.com/uc?export=view&id=1SSNty8wigGBu5vzfZ7rDXBF453u-bJxX" width="200">
