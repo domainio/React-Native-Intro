@@ -34,8 +34,8 @@ export default class LayoutAnimationScreen extends Component {
         title={item.name}
         subtitle={item.position}
         rightIcon={{
-          name: 'cancel',
-          color: 'red',
+          name: 'chevron-right',
+          color: 'lightgray',
         }}
       />)
   };
