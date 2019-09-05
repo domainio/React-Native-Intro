@@ -6,6 +6,7 @@ import TabBarIcon from '../components/TabBarIcon';
 import HomeScreen from '../screens/HomeScreen';
 import CameraScreen from '../screens/CameraScreen';
 import MapScreen from '../screens/MapScreen';
+import ListScreen from '../screens/ListScren';
 
 const config = Platform.select({
   web: { headerMode: 'screen' },
@@ -67,10 +68,28 @@ MapStack.navigationOptions = {
 
 MapStack.path = '';
 
+
+const ListStack = createStackNavigator(
+  {
+    List: ListScreen,
+  },
+  config
+);
+
+ListStack.navigationOptions = {
+  tabBarLabel: 'List',
+  tabBarIcon: ({ focused }) => (
+    <TabBarIcon focused={focused} name={Platform.OS === 'ios' ? 'ios-options' : 'md-options'} />
+  ),
+};
+
+ListStack.path = '';
+
 const tabNavigator = createBottomTabNavigator({
   HomeStack,
   CameraStack,
   MapStack,
+  ListStack,
 });
 
 tabNavigator.path = '';
