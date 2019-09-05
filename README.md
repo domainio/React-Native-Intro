@@ -1,7 +1,7 @@
 # Mobile app use React-Native
 ## How to run on your `IOS device`
 1. Download **`expo` app via AppStore or scan this qr-code
-![ios_expo](https://drive.google.com/uc?export=view&id=1SSNty8wigGBu5vzfZ7rDXBF453u-bJxX | width=100)
+<img src="https://drive.google.com/uc?export=view&id=1SSNty8wigGBu5vzfZ7rDXBF453u-bJxX" width="48">
 
 2. Open IOS **`camera`** and scan this qr-code - it will launch expo with meetup app
 ![expo_qr_code](https://drive.google.com/uc?export=view&id=1ExIah3xbwGsAdOS0JZpVH86mRgCt3eir | width=100)
