@@ -1,6 +1,6 @@
 # Mobile app use [React-Native](https://facebook.github.io/react-native/)
 ## How to run on your `IOS device`
-1. Download **`Expo Client`** app via AppStore or scan this qr-code
+1. Download **`Expo Client`** app via AppStore - scan this qr-code
 <img src="https://drive.google.com/uc?export=view&id=1SSNty8wigGBu5vzfZ7rDXBF453u-bJxX" width="200">
 
 2. Open IOS **`Camera`** and scan this qr-code - it will launch Expo with meetup app
@@ -9,7 +9,7 @@
 
 
 ## How to run on your `Android device`
-1. Download **`Expo Client`** app via Google Play or scan this qr-code
+1. Download **`Expo Client`** app via Google Play - scan this qr-code
 <img src="https://drive.google.com/uc?export=view&id=1cBsPGUqaOKRDgfIR_eW-Raq-eS_k2Ly4" width="200">
 
 2. Launch **`Expo`** app
