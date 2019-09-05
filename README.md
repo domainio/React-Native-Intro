@@ -21,4 +21,4 @@
 <img src="https://drive.google.com/uc?export=view&id=1ExIah3xbwGsAdOS0JZpVH86mRgCt3eir" width="200">
 
 ## How to run on browser
-https://snack.expo.io/@innovaterz/rn-intro
+> [Open `snak`](https://snack.expo.io/@innovaterz/rn-intro)
